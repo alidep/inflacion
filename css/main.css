@@ -1,0 +1,81 @@
+
+/**CSS for Sorteos
+
+/******************************************************
+  NavBar
+******************************************************/
+/*header {
+
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}*/
+
+
+.hero-body{
+  background: url("../imgs/dolar-big.png") no-repeat center center fixed;
+    background-size: auto auto, auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.hero.is-info .title{
+  color:#FEFF86;
+}
+/**SHARING LINKS**/
+
+.sharing-links{
+position: -webkit-sticky;
+position: sticky;
+float: left;
+top: 0;
+padding-top: 30px;
+padding-left: 10px;
+z-index: 1;
+
+}
+
+
+.sharing-links  button {
+
+    background-color: transparent;
+    border: 1px solid rgba(177, 177, 177, 0.3);
+    border-radius: 0px;
+    margin: 5px;
+    outline: none;
+    color: #979797;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    padding: 8px 10px; /* Some padding */
+    width: 50px; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+
+}
+
+
+
+.sharing button {
+
+    background-color: transparent;
+    border: 2px solid #183F63;
+    border-radius: 0px;
+    margin: 5px;
+    outline: none;
+    color: #979797;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    padding: 8px 10px; /* Some padding */
+    width: 50px; /* Set a width if needed */
+  float: right; /* Float the buttons side by side */
+}
+
+.footer{
+  background-color: #AFFFCC;
+}
+

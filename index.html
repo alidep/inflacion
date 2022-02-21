@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El Costo del Dolàr</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+
+    <link rel="stylesheet" href="css/medio-main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css" />
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Fundacion Conocimiento Abierto Argentina" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://conocimientoabierto.org" />
+    <meta property="og:image" content="https://conocimientoabierto.org/img/icon/logo.png" />
+    <meta property="og:description" content="El 8 de agosto se debatirá en el senado de la Nación el proyecto de ley que impulsa la despenalización y legalización del aborto llamada 'Ley de Interrupción Voluntaria del Embarazo.' El proyecto de ley tiene media sanción de la Cámara de Diputados." />
+
+      <!-- Twitter Cards data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@okfnar" />
+    <!-- Matomo -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setDomains", ["*.conocimientoabierto.org","*.www.conocimientoabierto.org"]]);
+      _paq.push(["setDoNotTrack", true]);
+      _paq.push(["disableCookies"]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.conocimientoabierto.org/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '2']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//analytics.conocimientoabierto.org/piwik.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+    <!-- End Matomo Code -->
+  </head>
+
+  <body>
+
+<div class="container is-fluid">
+   <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#" style="font-weight:bold;">
+            Sin Nombre
+          </a>
+          <span class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item is-active">Incio</a>
+            <a href="#" class="navbar-item">Quienes Somos</a>
+            <a href="#" class="navbar-item">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+        </div><!--/container -->
+
+    <section class="hero is-info is-medium">
+      <div class="hero-body">
+        <div class="container">
+                <div class="datelg">1 JULIO 2018</div>
+
+          <h1 class="title yellow">
+            El Costo del Dolár
+          </h1>
+          <p class="subtitle">
+           Exploramos como la inflación afectó el costo de los productos de la canasta básica de mayo de 2016 a junio de 2018.
+          </p>
+          <img src="imgs/arrow.png" width="50px" class="animated bounce infinite" id="arrow">
+        </div>
+      </div>
+    </section>
+
+    <!-- Sharing Links -->
+    <div class="sharing-links" id="sharing-links" >
+      <a href="https://twitter.com/home?status=El 8 de agosto se debatirá en el senado de la Nación el proyecto de ley que impulsa la despenalización y legalización del aborto llamada 'Ley de Interrupción Voluntaria del Embarazo'. Conoce como votaron los senadores en otras leyes que amplian derechos.  https://conocimientoabierto.org/votos-historicos-senado/" target="blank"><button><i class="fab fa-twitter" aria-hidden="true"></i><span class="btn-text" id="twit" target="blank"></span></button></a>
+      <button><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="btn-text face"></span></button>
+    </div>
+
+    <section class="section" id="less">
+      <div class="container intro">
+
+        <div class="by-line">
+          <span class="by">Por</span>  <a href="https://twitter.com/alidepsky" target="blank">Alison Depsky</a>, <a href="https://twitter.com/fnbellomo" target="blank">Franco Bellomo</a> 
+        </div>
+        <div class="fecha">1 de Julio, 2018</div><br>
+
+        <p>
+          <span class="intro-first">El 1 de Julio, 2018</span> Exploramos como la inflación afectó el costo de los productos de la canasta básica de mayo de 2016 a junio de 2018.  Los precios han estado subiendo en varios segmentos de la economía en los últimos meses, y el público se está sintiendo el ajusto. Abajo, nos acercamos a cinco áreas de gasto del consumidor mas basicas y cuánto han aumentado los precios en los últimos dos años.
+
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+<div class="flourish-embed" data-src="visualisation/102865"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
+
+
+      </div>
+    </section>
+
+<div class="quiensomos">
+       <section class="section2">
+      <h2 class="h2-title green">¿Quiénes Somos?</h2>
+      <p class="has-text-centered quiensomos">
+Somos un equipo de periodistas, diseñadores, desarrolladores y científicos de datos.    </p>
+      <div class="buttons is-centered">
+ <a class="button is-large is-centered" href="">Leer Más</a></div>
+  </section>
+    </div>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <a href="">SIN NOMBRE</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php" target="blank">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="blank">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+
+
+
+        <script type="text/javascript">
+      (function() {
+        var burger = document.querySelector('.burger');
+        var nav = document.querySelector('#'+burger.dataset.target);
+        burger.addEventListener('click', function(){
+          burger.classList.toggle('is-active');
+          nav.classList.toggle('is-active');
+        });
+      })();
+    </script>
+  </body>
+</html>
